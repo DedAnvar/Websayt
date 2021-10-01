@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+.tepa{
+    width: 100%;
+    height: 600px;
+    background: url("./img/Personal-Fitness-Trainer01.jpg") center center/cover no-repeat;
+  margin-bottom: 20px;
+  }
+  .logo{
+      width: 100%;
+      height: 80px;
+      background: rgba(0, 0, 0, 0.198);
+      display: flex;
+      
+      justify-content: space-between;
+      align-items: center;
+      }
+     .logo h1{
+         font-family:serif;
+        display: flex;
+        padding: 5px 0 0 100px;
+    }
+    .qizil{
+        font-family:serif;
+        padding-left: 5px;
+        color: red;
+    }
+    .yangi h1{
+        font-family: inherit;
+        padding:120px ;
+        font-size: 50px;
+    }
+    .yuriqnoma{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+       .yuriq{
+           width: 100%;
+           height: auto;
+           background: rgba(0, 0, 0, 0.884);
+           transition: all 0.2s ease-in-out;
+       }
+       .yuriq img{
+           width: 100%;
+           height: 270px;
+       }
+       .yuriq h2{
+           text-align: center;
+           padding: 20px 0;
+           color: white;
+       }
+       .yuriq p{
+           color: white;
+           padding: 5px;
+           font-size: 17px;
+           text-align: center;
+       }
+       .yuriq:hover{
+           background: rgb(167, 29, 29);
+       }
+       .orta{
+           width: 100%;
+           height: auto;
+           background:rgb(167, 29, 29) ;
+           display: grid;
+           grid-template-columns: 50% 50%;
+       }
+       .orta1 h2{
+           font-size: 30px;
+           color: white;
+           padding: 80px 0 20px 50px;
+       }
+       .orta1 p{
+           color: white;
+           padding: 0 0 0 50px;
+           font-family:Georgia, 'Times New Roman', Times, serif ;
+       }
+       .button{
+           margin: 20px 0 20px 50px;
+           width: 100px;
+           padding: 10px;
+           background: rgba(0, 0, 0, 0.884) ;
+           border: none;
+           transition: all 0.2s ease-in-out;
+           }
+           .button  a{
+            color: white;
+           }
+           .button:hover{
+            background:rgb(167, 29, 29) ;
+            border: solid 1px black;
+           }
+           .velo{
+               width: 100%;
+               height: auto;
+               display: grid;
+               grid-template-columns: 50% 50%;
+           }
+           .velo1{
+               width: 100%;
+               height: auto;
+               background: red;
+               background: url("./img/people-2604149_1920.jpg") center center/cover no-repeat;
+           }
+           .ded{
+               
+               background: none;
+               display: grid;
+               grid-template-columns: 95%;
+               gap: 10px;
+               justify-content: center;
+               padding-top: 20px;
+           }
+           .ded1{
+             
+               height: auto;
+             
+            }
+            .ded2{
+                height: auto;
+            }
+            .ded1 p{
+                font-family: cursive;
+            }
+            .voy{
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
+            .voy1{
+               background: url("./img/i\ \(2\).jpg") center center/cover no-repeat;
+            }
+           .pto{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 60px;
+               height: 60px;
+               background: red;
+               color: white;
+           }
+           .vay{
+            display: flex;
+            justify-content: end;
+           }
+           .pto1{
+            display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 60px;
+               height: 60px;
+               background: #000000e1 ;  
+               color: white;
+            }
+            .voy2{
+                background: rgb(19, 18, 18);
+                color: white;
+                padding: 50px 0 0 10px;
+            }
+            .voy2 p{
+                padding: 20px 0 20px 0;
+                font-size: 20px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+            }
+            .voy2 a{
+                color: white;
+            }
+            .ccl{
+                background: rgb(167, 29, 29);
+            }
+
+            .ikta{
+                width: 100%;
+                height: auto;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                margin-top: 50px;
+                background:rgb(19, 18, 18) ;
+            }
+            .bir{
+                background: rgb(19, 18, 18);
+            }
+            .nol{
+                width: 80%;
+                background: url("./img/nintchdbpict000311961821.jpg") center center/cover no-repeat;
+            }
+            .anor{
+                width: 100%;
+                height:auto;
+                display: grid;
+                grid-template-columns: 49% 49%;
+                gap: 5px;
+            }
+            .ords h2{
+                font-size: 35px;
+           color: #000000;
+           padding: 80px 0 20px 50px;
+            }
+            .ords p{
+                color: #000000;
+                padding: 0 0 0 50px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+            }
+            .urik img{
+                padding-top: 10px;
+                width: 100%;
+            }
+            .mrb{
+                width: 100%;
+                height: auto;
+                text-align: center;
+               }
+               .nngr{
+                   width: 100%;
+                display: grid;
+                grid-template-columns: 50% 50%   ;
+               }
+               .veb img{
+                   width: 100%;
+                   filter: grayscale();
+                   height: 100%;
+               }
+               .mrb h1{
+                    padding: 50px 0 20px 0;
+               }
+              
+               .yozuv{
+                   width: 100%;
+                   height: 300px;
+                   text-align: center;
+               }
+               .yozuv h1{
+                   padding: 50px 0;
+                   font-size: 30px;
+                   font-weight: 800;
+               }
+               .yozuv p{
+               font-size: 25px;
+               }
+               .narx{
+                width: 100%;
+                height: auto;
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+            }
+               .ygrf{
+                   width: 100%;
+                   height: 60px;
+                   background:rgb(167, 29, 29) ;
+                  
+               }
+               .ygrf h1{
+                   padding: 15px 0 0 0;
+                   text-align: center;
+                }
+                .frty{
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 100px;
+                }
+                .frty img{
+                    width: 100%;
+                    height: 250px;
+                }
+                .frty{
+                    background: rgba(0, 0, 0, 0.205);
+                    text-align: center;
+                transition: all 0.3s ease-in-out;
+                   
+                }
+                .frty h2{
+                    padding: 20px 0;
+                    font-size: 30px;
+                }    
+                .frty p{
+                    font-size: 18px;
+                    
+                }
+                #but{
+                   margin: 20px 0 ;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 20px;
+                    background:rgba(0, 0, 0, 0.884)  ;
+                    border: none;
+                transition: all 0.2s ease-in-out;
+              
+                }
+                #but a{
+                    color: white;
+                }
+                #but:hover{
+                    background: rgb(167, 29, 29);
+                    border: 1px solid black;
+                }
+                .frty:hover{
+                    background: rgb(167, 29, 29);
+                }
+                .tagi{
+                    width: 100%;
+                    height: 500px;
+                    background:#000000e1 ;
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                  
+                    align-items: center;
+                }
+                .send input{
+                    margin: 20px 50px;
+                    width: 80%;
+                   padding: 10px;
+                   border: 1px solid white;
+                   background: rgba(0, 0, 0, 0.205);
+                   color: white;
+                }
+              #vff{
+                  padding: 10px;
+                  width: 80%;
+                  margin: 20px 0 0 50px;
+                  background: rgba(0, 0, 0, 0.205);
+                  border: 1px solid white;
+                  color: white;
+              }
+              .send1 h1{
+                  color: rgb(167, 29, 29);
+                  margin-bottom: 20px;
+              }
+              .send1 p{
+                margin-bottom: 20px;
+              }
+              .send1 img {
+                  width: 50px;
+                  height: 50px;
+                 margin-left: 20px;
+                background:rgb(167, 29, 29);
+                cursor:grab;
+                }
+                .zzz{
+                    background:rgb(167, 29, 29) ;
+                padding: 5px 10px;
+                }
+                .zzz1{
+                    text-align: center;
+                    padding: 5px 10px;
+                    }
+                .zxzc{
+                    background:#000000e1 ;
+                    padding: 5px 10px;
+                    text-align: center;
+                }
+                .zxzc1{
+                    text-align: center;
+                    background:rgba(0, 0, 0, 0.205) ;
+                    padding: 5px 10px;
+                }
+                table{
+                    margin-top: 90px;
+                    border-collapse: collapse;
+                }
+                .table{
+                    padding: 20px;
+                    width: 70%;
+                    background: rgb(93, 13, 13);
+                }
+                .orta2{
+                    display: grid;
+                   grid-template-columns: 100%;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .table img{
+                     width: 30px;
+                   margin-left: 20px;
+                   position: absolute;
+                   right: 12px;
+                   top: 50%;
+                   transform: translateY(-50%);
+                   
+                }
+                .opened_folder{
+                    display: none;
+                }
+              .suma {
+                  position: relative;
+              }
+             .table[open] .folder {
+                 display: none;
+             }
+              .table[open] .opened_folder {
+                display: inline;
+            }
+            .table[open]{
+                background:rgba(0, 0, 0, 0.918) ;
+                color: white;
+            }
+            .send1 h2 a{
+                color: white;
+            }
+            .pp{
+                position: relative;
+            }
+            .pp img{
+                 width: 30px; 
+                 height: 30px;
+                 background: none;
+               margin-left: 250px;
+               padding: 0;
+               cursor:initial;
+               position: absolute;
+               top: 50%;
+               transform: translateY(-50%);
+            }
+             .logo img{
+                 width: 40px;
+                 margin-right: 100px;
+                 margin-top: 3px;
+
+             }
+.send1  a img:active{
+    cursor:grabbing;
+}
+            
+            @media (max-width:991px){
+                .yuriqnoma{
+                    display: grid;
+                    grid-template-columns: 48% 48%;
+                }
+                .orta{
+                    grid-template-columns: 100%;
+                }
+                .orta2{
+                    grid-template-columns: 100%;
+                    gap: 10px;
+                 
+                    justify-content: center;
+                    align-items: center;
+                }
+                .velo{
+                    grid-template-columns: 100%;
+                }
+                .velo1{
+                    height: 600px;
+                }
+                .nol{
+                    width: 100%;
+                }
+                .anor{
+                    grid-template-columns: 100%;
+                }
+                .narx{
+                    grid-template-columns: 48% 48%;
+                }
+                .tagi{
+                    grid-template-columns: 100%;
+                }
+               
+                .ords p{
+                    font-size: 20px;
+                }
+                .ded1 p{
+                    font-size: 20px;
+                }
+                .table{
+                    margin-left: 140px;
+                    margin-bottom: 20px;
+                }
+                .orta1 p{
+                    font-size: 20px;
+                }
+                .yuriq p{
+                    font-size: 20px;
+                }
+                .send1 p{
+                    font-size: 20px;
+                }
+                .send1{
+                    background:rgba(0, 0, 0, 0.856) ;
+                }
+                .send1 h2{
+                    text-align: center;
+                }
+                .gura{
+                    display:flex ;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }  
+            
+            @media (max-width:776px){
+               .voy{
+                   height: auto;
+                   grid-template-columns: 100%;
+               }
+               .voy1{
+                   height: 300px;
+               }
+               .ded{
+                   height: auto;
+               }
+               .table{
+                  margin-left: 20px;
+               }
+               .voy2{
+                   padding: 50px;
+                   height: 150px;
+               }
+               .nngr{
+                   grid-template-columns: 100%;
+               }
+            }
+            @media (max-width:570px){
+               .yuriqnoma{
+                   grid-template-columns: 100%;
+               }
+               .orta1 p{
+                   padding: 10px;
+                   font-size: 18px;
+               }
+               .yuriq p{
+                   font-size:18px ;
+               }
+               .ikta{
+                   grid-template-columns: auto;
+               }
+               .nol{
+                   height: 300px;
+               }
+               .yangi h1{
+                   font-size: 40px;
+               }
+               .narx{
+                   grid-template-columns: 100%;
+               }
+               .send input {
+                   margin-left: 10px;
+               }
+               #vff{
+                   margin-left: 10px;
+               }
+               .yozuv{
+                   height: auto;
+               }
+               .send1 h2{
+                   font-size: 20px;
+               }
+               .gura{
+                   display: none;
+               }
+            }
+            @media (max-width:375px){
+                .yangi h1{
+                    font-size: 20px;
+                    padding: 50px;
+                }
+                .tepa{
+                    height: auto;
+                }
+                .logo h1{
+                    padding: 20px;
+                }
+                .yuriq{
+                    width: 98%;
+                }
+                .ikta{
+                    width: 98%;
+                }
+                .yozuv p{
+                    font-size: 18px;
+                }
+                .narx{
+                    grid-template-columns: 98%;
+                }
+                .send1 h2{
+                    font-size: 18px;
+                }
+                .send input{
+                    width: 70%;
+                }
+            }
+            
+
+                 
+                
+                 
+            
+           
+              
+               
+              
+           
