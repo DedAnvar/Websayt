@@ -431,7 +431,10 @@
              }
 .send1  a img:active{
     cursor:grabbing;
-}
+}                  
+                .form{
+                    width: 100%;
+                }
             
             @media (max-width:991px){
                 .yuriqnoma{
@@ -487,7 +490,7 @@
                     font-size: 20px;
                 }
                 .send1{
-                    background:rgba(0, 0, 0, 0.856) ;
+                    background:rgba(0, 0, 0, 0.205) ;
                 }
                 .send1 h2{
                     text-align: center;
@@ -520,10 +523,20 @@
                .nngr{
                    grid-template-columns: 100%;
                }
+               .send input {
+                   width: 80%;
+               }
+               .send1 h1{
+                margin-left: 5px;
+               }
+               .send1{
+                  margin-left: 5px;
+               }
             }
             @media (max-width:570px){
                .yuriqnoma{
                    grid-template-columns: 100%;
+                 
                }
                .orta1 p{
                    padding: 10px;
@@ -545,10 +558,10 @@
                    grid-template-columns: 100%;
                }
                .send input {
-                   margin-left: 10px;
+                   margin-left: 30px;
                }
                #vff{
-                   margin-left: 10px;
+                   margin-left: 30px;
                }
                .yozuv{
                    height: auto;
@@ -559,8 +572,31 @@
                .gura{
                    display: none;
                }
+               /* .send{
+                   margin: 20px 20px;
+               } */
+               .tagi{
+                   height: auto;
+               }
             }
+            @media (max-width:424px){
+             .send input{
+                 width: 85%;
+                margin: 20px 18px; 
+             }
+             #vff{
+                 margin: 0 18px;
+                 width: 85%;
+             }
+
+
+            }
+
             @media (max-width:375px){
+                .yuriqnoma{
+                    justify-content: center;
+                }
+                
                 .yangi h1{
                     font-size: 20px;
                     padding: 50px;
@@ -572,7 +608,13 @@
                     padding: 20px;
                 }
                 .yuriq{
-                    width: 98%;
+                    width: 100%;
+                    justify-content: center;
+                    border-radius: 20px;
+                }
+                .yuriq img {
+                    border-top-right-radius:20px;
+                     border-top-left-radius:20px;
                 }
                 .ikta{
                     width: 98%;
@@ -586,8 +628,61 @@
                 .send1 h2{
                     font-size: 18px;
                 }
+                .send{
+                    width: 100%;
+                }
                 .send input{
-                    width: 70%;
+                    width: 300px;
+                }
+                .send input {
+                    margin: 20px 25px;
+                }
+                #vff{
+                    margin: 0 25px;
+                }
+                #vff{
+                    width: 300px;
+                }
+            }
+            @media (max-width:360px){
+                .yuriqnoma{
+                    justify-content: center;
+                }
+                .send input {
+                    margin: 20px 18px;
+                }
+                #vff{
+                    width: 300px;
+                }
+                #vff{
+                    margin: 0 18px;
+                }
+            }
+            @media (max-width:320px){
+                .send input {
+                    width: 260px;
+                    margin: 20px 18px;
+                }
+                #vff{
+                    width: 260px;
+                }
+                #vff{
+                    margin: 0 18px;
+                }
+            }
+            @media (max-width:280px){
+                .send input {
+                    width: 225px;
+                    margin: 20px 15px;
+                }
+                #vff{
+                    width: 225px;
+                }
+                #vff{
+                    margin: 0 15px;
+                }
+                .pp img{
+                    display: none;
                 }
             }
             
